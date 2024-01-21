@@ -34,14 +34,14 @@ body {
 
 h1 {
     font-family: 'Ultra', serif;
-    font-size: calc(3rem + 3vw);
+    font-size: 5vw;
     letter-spacing: 0.05em;
     white-space: wrap;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-size: calc(1rem + 1.5vw);
+    font-size: 2vw;
     font-family: 'Courier New', Courier, monospace;
 }
   
@@ -65,7 +65,7 @@ h2 {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-    max-width: 400px;
+    max-width: 300px;
     align-items: left;
 }
 
@@ -74,12 +74,13 @@ h2 {
     background-color: #fcb900;
 }
 
-@media (max-width: 400px) { 
+@media (max-width: 600px) { 
     h1 { 
-      font-size: calc(8rem + 6vw); /* adjust as needed */ 
+      font-size: 3rem;
+      white-space: wrap;
     }
   
     h2 { 
-      font-size: calc(4rem + 4vw); /* adjust as needed */ 
+      font-size: 2rem; /* adjust as needed */ 
     } 
   }
